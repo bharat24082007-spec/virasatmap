@@ -1,0 +1,4 @@
+CREATE POLICY "heritage photos readable" ON storage.objects FOR SELECT TO anon, authenticated USING (bucket_id = 'heritage-photos');
+CREATE POLICY "heritage photos uploadable" ON storage.objects FOR INSERT TO anon, authenticated WITH CHECK (bucket_id = 'heritage-photos');
+CREATE POLICY "heritage photos admin update" ON storage.objects FOR UPDATE TO authenticated USING (bucket_id = 'heritage-photos' AND public.has_role(auth.uid(), 'admin'));
+CREATE POLICY "heritage photos admin delete" ON storage.objects FOR DELETE TO authenticated USING (bucket_id = 'heritage-photos' AND public.has_role(auth.uid(), 'admin'));

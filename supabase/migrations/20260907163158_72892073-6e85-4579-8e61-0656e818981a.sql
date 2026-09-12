@@ -1,0 +1,1 @@
+ALTER TABLE public.heritage_items ADD COLUMN IF NOT EXISTS is_hidden_gem boolean NOT NULL DEFAULT false;

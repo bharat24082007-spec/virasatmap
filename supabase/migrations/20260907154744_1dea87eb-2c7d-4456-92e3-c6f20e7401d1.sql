@@ -1,0 +1,7 @@
+INSERT INTO public.heritage_items (id, name, category, city, region, latitude, longitude, description, significance, festival_date, status) VALUES
+('11111111-1111-4111-8111-00000000000d','Ganesh Chaturthi at Lalbaugcha Raja','festival','Mumbai','Maharashtra',18.9895,72.8320,'Ten days of neighbourhood pandals, drums and the final immersion of clay Ganesh idols in the sea.','Turned into a public festival in the 1890s as a way to gather crowds that colonial assembly laws had banned.','2026-09-14','verified'),
+('11111111-1111-4111-8111-00000000000e','Nuakhai Harvest Festival','festival','Sambalpur','Odisha',21.4669,83.9812,'Western Odisha''s harvest thanksgiving, when the season''s first rice is offered to the presiding goddess before anyone eats it.','A farming calendar older than the temples here; families reconcile and gather on this single day.','2026-09-10','verified');
+
+INSERT INTO public.local_stories (heritage_item_id, story_text, belief_type, contributor_name, status) VALUES
+('11111111-1111-4111-8111-00000000000d','People queue for hours because it is believed that a wish spoken at the feet of Lalbaugcha Raja is granted within the year, which is why the idol is called the king of fulfilled wishes.','local_belief','Lalbaug regulars','verified'),
+('11111111-1111-4111-8111-00000000000e','No one in the household eats the new rice before the goddess and the family elders have been offered it, and juniors touch the feet of elders afterwards to seal the year.','cultural_practice','Sambalpur families','verified');
