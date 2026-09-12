@@ -14,8 +14,7 @@
 
 ## 🌐 Live Application
 
-* **Production Site:** [https://virasatmap.lovable.app](https://virasatmap.lovable.app/)
-* **Preview Deployment:** [https://id-preview--7a7909da-bf76-4e81-91d4-f50598f4ff04.lovable.app](https://id-preview--7a7909da-bf76-4e81-91d4-f50598f4ff04.lovable.app/)
+* **Live Site:** [https://virasatmap.lovable.app](https://virasatmap.lovable.app/)
 
 ---
 
